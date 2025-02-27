@@ -28,3 +28,6 @@ A fun web app where students can submit and browse the most ridiculous excuses g
 3.	Showcases Full-Stack Skills – Covers authentication, database management, API development, and frontend implementation.
 4.	Scalability & Learning – Provides opportunities to add features like social sharing, leaderboards, and AI-generated excuses.
 5.	Simplicity with Depth – The project is simple to execute but allows room for advanced features, making it ideal for learning.
+
+S63
+

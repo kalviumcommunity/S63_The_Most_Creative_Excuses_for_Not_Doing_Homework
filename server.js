@@ -1,4 +1,4 @@
-require('dotenv').config();  // Load environment variables from .env
+require('dotenv').config(); // Load environment variables
 
 const express = require('express');
 const mongoose = require('mongoose');
@@ -15,7 +15,13 @@ mongoose.connect(MONGO_URL, {
 .then(() => console.log('MongoDB Connected'))
 .catch(err => console.error('MongoDB Connection Error:', err));
 
-// Simple Route
+// Home Route - Check DB Connection Status
+app.get('/', (req, res) => {
+    const dbStatus = mongoose.connection.readyState === 1 ? "Connected" : "Not Connected";
+    res.json({ message: "Welcome to ASAP Project!", database_status: dbStatus });
+});
+
+// Simple Ping Route
 app.get('/ping', (req, res) => {
     res.json({ message: "pong" });
 });

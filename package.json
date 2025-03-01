@@ -1,0 +1,28 @@
+{
+  "name": "s63_the_most_creative_excuses_for_not_doing_homework",
+  "version": "1.0.0",
+  "description": "***Project: “The Most Creative Excuses for Not Doing Homework”***",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/S63_The_Most_Creative_Excuses_for_Not_Doing_Homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/S63_The_Most_Creative_Excuses_for_Not_Doing_Homework/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/S63_The_Most_Creative_Excuses_for_Not_Doing_Homework#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0",
+    "nodemon": "^3.1.9"
+  }
+}

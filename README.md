@@ -30,3 +30,5 @@ A fun web app where students can submit and browse the most ridiculous excuses g
 5.	Simplicity with Depth – The project is simple to execute but allows room for advanced features, making it ideal for learning.
 
 
+
+Deployment link : https://s63-the-most-creative-excuses-for-not.onrender.com/ 
